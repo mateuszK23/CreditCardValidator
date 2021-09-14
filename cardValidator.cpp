@@ -24,8 +24,13 @@ int getSumOdd(string card)
 
 bool isCardValid(string card)
 {
+    // Luhn's algorithm
+    // Get the sum of numbers on odd places
     int sumOdd = getSumOdd(card);
+    // Get the sum of numbers on even places
+    // Each nr is doubled and if it's greater than 10, the nr becomes the sum of its 2 digits
     int sumEven = getSumEven(card);
+    // if sum of sums is divisible by 10 the card number is valid
     return (sumEven+sumOdd) %10 == 0;
 }
 
