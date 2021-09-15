@@ -2,4 +2,9 @@ This is a cmd program written in C++ which validates credit card numbers, and le
 
 Validator uses the Luhn's algorithm.
 
-To run the program either compile cardValidator.cpp or get cardValidator.exe and run it.
+To run the program compile cardValidator.cpp using compilator of your choice and run the .exe output file.
+
+example using g++:  type 'g++ -o validator cardValidator.cpp' 
+
+This command will produce validator.exe file, execute it to run the program.
+
