@@ -1,4 +1,4 @@
-This is a cmd program written in C++ which validates credit card numbers, and lets the user know given card's type etc. Visa, MasterCard.
+This is a cmd program written in C++ that validates credit card numbers, and displays its type: Visa, MasterCard etc.
 
 Validator uses the Luhn's algorithm.
 
